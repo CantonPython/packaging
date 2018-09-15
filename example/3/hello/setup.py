@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='hello',
-    version='1.0.0',
+    version='1.3.0',
     author='Michael Meffie',
     author_email='mike@meffie.org',
     description='A tiny example package',
