@@ -18,6 +18,11 @@ setup(
     install_requires=[
         'six',
     ],
+    entry_points = {
+        'console_scripts': [
+            'hello=hello.__main__:main',
+        ],
+    },
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: BSD License',
